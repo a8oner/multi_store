@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+class MyMessageHandler {
+  static void showSnackBar(var scaffoldKey, String message) {
+    debugPrint('scaffoold key $scaffoldKey $message');
+    //scaffoldKey.currentState!.hideCurrentSnacBar();
+    scaffoldKey.currentState!.showSnackBar(SnackBar(
+      duration: const Duration(seconds: 2),
+      backgroundColor: Colors.yellow,
+      content: Text(
+        message,
+        textAlign: TextAlign.center,
+        style: const TextStyle(fontSize: 18, color: Colors.black),
+      ),
+    ));
+  }
+}
