@@ -36,7 +36,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
         if (snapshot.hasError) {
           return const Text("Something went wrong");
         }
-
+ // Firebase account has been deleted so you may encounter an error!!
         if (snapshot.hasData && !snapshot.data!.exists) {
           return const Center(child: Text("Document does not exist"));
         }
