@@ -34,7 +34,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
       builder:
           (BuildContext context, AsyncSnapshot<DocumentSnapshot> snapshot) {
         if (snapshot.hasError) {
-          return const Text("Something went wrong");
+          return const Text("Something Went Wrong");
         }
  // Firebase account has been deleted so you may encounter an error!
         if (snapshot.hasData && !snapshot.data!.exists) {
