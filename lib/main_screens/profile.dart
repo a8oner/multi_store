@@ -44,7 +44,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
         if (snapshot.connectionState == ConnectionState.done) {
           Map<String, dynamic> data = snapshot.data!.data() as Map<String,
               dynamic>; //firestore database'deki en sağdaki haritanın değeri dynamic yani string,int vs
-          return /*  Text("Full Name: ${data['full_name']} ${data['last_name']}"); */
+          return /*  Text("Full Name:: ${data['full_name']} ${data['last_name']}"); */
               Scaffold(
             backgroundColor: Colors.grey.shade300,
             body: Stack(
