@@ -9,6 +9,8 @@ import 'package:flutter_new_project/main_screens/cart.dart';
 import 'package:flutter_new_project/widgets/alert_dialog.dart';
 import 'package:flutter_new_project/widgets/appbar_widgets.dart';
 
+//profile
+
 class ProfileScreen extends StatefulWidget {
   final String documentId;
   const ProfileScreen({super.key, required this.documentId});
