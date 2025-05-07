@@ -26,7 +26,6 @@ A multi-vendor e-commerce mobile application developed using Flutter in 2023. Th
 - Shopping cart functionality
 - Firebase authentication (email/password)
 - Modern, responsive UI
-- State management using GetX
 
 ## 🎯 Purpose
 
@@ -35,7 +34,6 @@ This project was built to improve my experience in:
 - E-commerce app architecture and flow
 - Flutter navigation and layout systems
 - Firebase integration (Auth, Firestore)
-- GetX for reactive state and routing
 
 > Uploaded in 2025 for portfolio purposes and to demonstrate my capabilities in mobile app development.
 
@@ -44,7 +42,6 @@ This project was built to improve my experience in:
 - Flutter (3.x)
 - Dart
 - Firebase (Authentication, Firestore)
-- GetX (state management)
 
 
 
